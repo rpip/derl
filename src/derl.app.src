@@ -7,7 +7,7 @@
     stdlib
    ]},
   {env,[]},
-  {modules, []},
+  {modules, [derl]},
 
   {licenses, ["Apache 2.0"]},
   {links, [{"GitHub", "https://github.com/rpip/derl"}]}

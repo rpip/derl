@@ -18,15 +18,3 @@
 %%% @author Aman Mangal <aman@dgraph.io>
 %%% @maintainer Aman Mangal <aman@dgraph.io>
 %%%
-
--module(derl).
--include("derl.hrl").
--export([init/0]).
-
-%% init/0
-%% ====================================================================
-%% @doc initializes a Dgraph grpc client.
--spec init() -> #client{}.
-%% ====================================================================
-init() ->
-    3.
